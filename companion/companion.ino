@@ -12,6 +12,7 @@ void loop() {
   if (Serial.available()) {
     char data = Serial.read();
     Serial1.write(data);
+
   }
 
   // Read from the G431B serial port and send to the USB serial port
@@ -21,7 +22,7 @@ void loop() {
     Serial.write(data);
   }
 
-  if(millis()%300 == 0){
+  if (millis() % 1000 == 0) {
     digitalWrite(LEDG, 1);
   }
 }

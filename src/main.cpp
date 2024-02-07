@@ -34,6 +34,10 @@ void doGetFreq(char* cmd){
 	Serial.println(main_loop_frequency);
 }
 
+void doGetI(char* cmd){
+	Serial.println(current_sense.getDCCurrent(motor.electrical_angle));
+}
+
 void setup(){
 	pinMode(LED_BUILTIN, OUTPUT);
 
@@ -111,6 +115,7 @@ void setup(){
 	command.add('F', doGetFreq, "get frequency of main loop");
 	command.add('T', doTarget, "target angle");
 	command.add('M',doMotor,"my motor motion");
+	command.add('I',doGetI,"my motor motion");
 	
 	_delay(100);
 
