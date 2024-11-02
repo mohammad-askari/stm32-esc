@@ -1,4 +1,4 @@
-# SimpleFOC Implementation for the STM32-B-G431B-ESC1 Driver
+# STM32-B-G431B-ESC1 Driver SimpleFOC Implementation
 
 ## Overview
 This repository presents a SimpleFOC-based implementation of Field-Oriented Control (FOC) for the STM32-B-G431B-ESC1 Discovery Kit. Developed for the BLDC actuator module of the Open Dynamic quadruped robot SOLO, this project aims to achieve efficient torque and speed control with an alternative driver due to global chip shortages affecting SOLO's original design. This work addresses the need for high-performance control for applications in bio-inspired quadruped robots.
