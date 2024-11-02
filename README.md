@@ -32,4 +32,4 @@ The enhanced FOC implementation demonstrated improved performance with significa
 
 ## Acknowledgments
 SimpleFOC Community for support and resources.
-The project leverages the [SimpleFOC library](https://simplefoc.com)) for implementing the FOC control algorithms.
+The project leverages the [SimpleFOC library](https://simplefoc.com) for implementing the FOC control algorithms.
